@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoneyMoves Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO META -->
+  <meta name="description" content="MoneyMoves Blog — learn how to make small money online, betting discipline, apps that pay, and side hustle strategies.">
+  <meta name="keywords" content="make money online, small income, betting tips, earning apps, side hustle">
+
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f5f6fa; }
+
+    header { background: #111827; color: white; padding: 20px; text-align: center; }
+
+    nav { background: #1f2937; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: bold; cursor: pointer; }
+
+    .container {
+      max-width: 1050px;
+      margin: 20px auto;
+      padding: 15px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .post { margin-bottom: 50px; border-bottom: 1px solid #eee; padding-bottom: 30px; }
+    .post h2 { margin-bottom: 10px; }
+
+    .meta { color: gray; font-size: 14px; margin-bottom: 15px; }
+
+    .ad-box {
+      border: 2px dashed #ccc;
+      padding: 15px;
+      text-align: center;
+      margin: 25px 0;
+      background: #fafafa;
+    }
+
+    .affiliate-box {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .faq { background:#f9fafb; padding:15px; border-radius:8px; margin-top:15px; }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .verify-box {
+      margin-top: 15px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    input[type="text"], input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      max-width: 320px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-top: 8px;
+    }
+
+    .counter { font-size: 14px; color: #555; margin-top: 10px; }
+
+    footer { text-align: center; padding: 20px; color: gray; font-size: 14px; }
+
+    .hidden { display: none; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>MoneyMoves Blog</h1>
+  <p>Smart ways to earn online & grow small money</p>
+</header>
+
+<nav>
+  <a onclick="showSection('home')">Home</a>
+  <a onclick="showSection('make')">Make Money</a>
+  <a onclick="showSection('betting')">Betting Tips</a>
+  <a onclick="showSection('apps')">Apps</a>
+  <a onclick="showSection('legal')">Legal</a>
+</nav>
+
+<div class="container">
+
+  <!-- GLOBAL TOP AD -->
+  <div class="ad-box">TOP AD — INSERT ADSTERRA CODE</div>
+
+  <!-- HOME -->
+  <div id="home" class="section">
+
+    <div class="post">
+      <h2>5 Ways To Make Small Money Online Daily</h2>
+      <div class="meta">Updated • 5 min read</div>
+      <p>Stack multiple small earning methods instead of chasing one big payout stream.</p>
+      <ol>
+        <li>Offerwalls & micro tasks</li>
+        <li>Referral stacking</li>
+        <li>Blog + ad monetization</li>
+        <li>Digital service flipping</li>
+        <li>Traffic + niche guides</li>
+      </ol>
+      <div class="ad-box">MID ARTICLE AD — INSERT ADSTERRA CODE</div>
+      <div class="affiliate-box">
+        <strong>Starter Platform:</strong><br>
+        <a href="#">YOUR AFFILIATE LINK HERE</a>
+      </div>
+      <div class="verify-box">
+        Verification: What is method number 4?
+        <input type="text">
+      </div>
+    </div>
+
+    <div class="post">
+      <h2>How Incentive Traffic Works (Offerwalls & Tasks)</h2>
+      <p>Incentive traffic comes from users completing paid tasks. Always use ad networks that allow this traffic type.</p>
+      <div class="ad-box">AD SLOT — INSERT ADSTERRA CODE</div>
+    </div>
+
+    <div class="post">
+      <h2>FAQ — Making Money With Content Pages</h2>
+      <div class="faq"><strong>How many articles should I post?</strong><br>Minimum 15 to start.</div>
+      <div class="faq"><strong>Best article length?</strong><br>500–900 words.</div>
+      <div class="faq"><strong>How many ads per page?</strong><br>3–6 placements.</div>
+    </div>
+
+  </div>
+
+  <!-- MAKE MONEY -->
+  <div id="make" class="section hidden">
+    <div class="post">
+      <h2>Top Offerwall + Task Sites That Pay</h2>
+      <p>Combine tasks + referrals + content pages for stacked income.</p>
+      <div class="ad-box">AD SLOT — INSERT ADSTERRA CODE</div>
+    </div>
+
+    <div class="post">
+      <h2>Referral Funnel Strategy</h2>
+      <p>Create guides → send users to referral signup → capture email → follow up.</p>
+      <div class="ad-box">AD SLOT — INSERT ADSTERRA CODE</div>
+    </div>
+  </div>
+
+  <!-- BETTING -->
+  <div id="betting" class="section hidden">
+    <div class="post">
+      <h2>Beginner Bankroll Formula</h2>
+      <p>Risk 2–5% per bet. Track every wager. Stop at daily cap.</p>
+      <div class="ad-box">AD SLOT — INSERT ADSTERRA CODE</div>
+      <div class="verify-box">Verification: Max percent per bet?<input type="text"></div>
+    </div>
+  </div>
+
+  <!-- APPS -->
+  <div id="apps" class="section hidden">
+    <div class="post">
+      <h2>Apps That Pay Small Daily Income</h2>
+      <p>Reward apps + referral stacking work best together.</p>
+      <div class="ad-box">AD SLOT — INSERT ADSTERRA CODE</div>
+    </div>
+  </div>
+
+  <!-- LEGAL -->
+  <div id="legal" class="section hidden">
+    <div class="post">
+      <h2>Privacy Policy</h2>
+      <p>This site may show ads and use cookies from advertising partners.</p>
+    </div>
+
+    <div class="post">
+      <h2>Terms</h2>
+      <p>Content is informational only. No income guarantees.</p>
+    </div>
+  </div>
+
+  <!-- EMAIL CAPTURE -->
+  <div class="post">
+    <h2>Join Free Weekly Money Tips</h2>
+    <input type="email" placeholder="Enter your email">
+    <br>
+    <button class="btn">Subscribe</button>
+  </div>
+
+  <div class="counter">Page views: <span id="views">0</span></div>
+
+  <div class="ad-box">BOTTOM AD — INSERT ADSTERRA CODE</div>
+
+</div>
+
+<footer>
+  © 2026 MoneyMoves Blog • All rights reserved
+</footer>
+
+<script>
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+}
+
+let v = localStorage.getItem('mm_views') || 0;
+v++;
+localStorage.setItem('mm_views', v);
+document.getElementById('views').innerText = v;
+</script>
+
+</body>
+</html>
